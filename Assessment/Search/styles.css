@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+
+#form,.submitting{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: rgb(206, 212, 218);
+    border-radius: 4px;
+}
+
+
+#form{
+    width: 265px;
+    height: 38px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
+
+#form:active, #form:focus{
+    border-color: #7952b3; 
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
+
+
+
+input, input:active, input:focus{
+    border: none;
+    font-size: 16px;
+}
+
+.submitting{
+    font-size: 12px;
+    border-color: rgb(222, 226, 230);
+    border-radius: 2px;
+    height: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.BigTable{
+    display: none;
+   border-color: rgb(222, 226, 230);
+   
+}
+
+td,th{
+    padding: 8px;
+    background-color: lightgrey;
+
+}
+th{
+    font-weight: 700;
+    
+}
+
